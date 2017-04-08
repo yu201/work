@@ -1,0 +1,212 @@
+@mixin pos($p:relative)
+  position: $p
+
+body
+  @include pos(absolute)
+  left: 0
+  right: 0
+  top: 0
+  bottom: 0
+  display: -webkit-flex
+  display: flex
+  flex-direction: column
+  font-size: 12px
+  overflow: hidden
+  background: #fff
+
+.header
+  height: .44rem
+  line-height: .44rem
+  text-align: center
+  @include pos
+  i
+    padding-right: .1rem
+
+  a
+    @include pos(absolute)
+    font-size: .2rem
+  .fan
+    left: 5px
+    top: 0
+  .geng
+    right: 0
+    top: 0
+  .title
+    text-align: center
+.section
+  flex: 1
+  overflow-y: auto
+  overflow-x: hidden
+.banner
+  img
+    width: 100%
+.cont
+  padding-right: .1rem
+  padding-left: .1rem
+  h3
+    color: #4f99f2
+    font-size: 16px
+    height: .44rem
+    line-height: .44rem
+  h5
+    color: #333333
+    padding-top: .06rem
+    padding-bottom: .06rem
+  p
+    text-indent: 2em
+.bg-gray
+  height: .1rem
+  margin-top: .1rem
+.bg-blue
+  height: .44rem
+  line-height: .44rem
+  text-align: center
+  color: #fff
+  font-size: 14px
+.content
+
+  .img
+    text-align: center
+    img
+      width: 60%
+      margin: 0 auto
+  h4
+    height: .3rem
+    line-height: .3rem
+    border-top: 1px solid #ccc
+    padding-left: .1rem
+    padding-right: .1rem
+  .title
+    display: flex
+    height: .44rem
+    border-top: 1px solid #ccc
+    border-bottom: 1px solid #ccc
+    ul
+      flex: 1
+      text-align: center
+      padding-top: .04rem
+      box-sizing: border-box
+      &:first-child
+        border-right: 1px solid #ccc
+      li:last-child
+        color: blue
+  .explain
+    display: flex
+    padding-left: .1rem
+    padding-right: .1rem
+    ul
+      flex: 1
+      li
+        padding-top: .04rem
+  .expl
+    dl
+      border-top: 1px solid #ccc
+      display: flex
+      dt
+        width: 40px
+        height: 40px
+        background: blue
+        line-height: 40px
+        text-align: center
+        color: #fff
+      dd
+        padding-left: .1rem
+        padding-top: .04rem
+  .record
+    padding-top: .2rem
+    p
+      text-align: center
+      color: #4f99f2
+    .rec
+      display: flex
+      flex-wrap: wrap
+
+      dl
+        width: 50%
+        padding-top: .1rem
+        padding-bottom: .1rem
+        box-sizing: border-box
+        text-align: center
+        color: #4f99f2
+        dt
+          font-size: .3rem
+          color: #4f99f2
+  .cont2
+    padding-top: .1rem
+    padding-right: .1rem
+    padding-left: .1rem
+    box-sizing: border-box
+    h4
+      display: flex
+      justify-content: space-between
+      align-items: center
+      height: .44rem
+      line-height: .44rem
+      i
+        font-size: .2rem
+        line-height: .44rem
+    h3
+      text-align: center
+      height: .3rem
+      line-height: .3rem
+      padding-bottom: .12rem
+      color:  #4f99f2
+    dt
+      text-align: center
+
+      img
+        width: 40%
+    dd
+      width: 100%
+      padding-right: .3rem
+      padding-left: .3rem
+      text-align: center
+      box-sizing: border-box
+    p
+      text-indent: 24px
+    h5
+      display: flex
+      justify-content: space-between
+      height: .44rem
+      line-height: .44rem
+      border-bottom: 1px solid #ccc
+    ul
+
+      li
+        display: flex
+        justify-content: space-between
+        height: .44rem
+        line-height: .44rem
+        border-bottom: 1px solid #ccc
+        i
+          line-height: .44rem
+.cont3
+  padding-top: .1rem
+  h3
+    text-align: center
+    height: .3rem
+    line-height: .3rem
+    padding-bottom: .12rem
+    color:  #4f99f2
+  .list
+    margin: 0 auto
+    display: flex
+    justify-content: space-between
+    padding-right: .1rem
+    padding-left: .1rem
+    dl
+      width: 30%
+      text-align: center
+      img
+        width: 100%
+
+
+.footer
+  height: .44rem
+  line-height: .44rem
+  text-align: center
+  background: #ccc
+
+
+
+

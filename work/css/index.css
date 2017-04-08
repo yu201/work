@@ -1,0 +1,204 @@
+body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  overflow: hidden;
+  background: #fff; }
+
+.header {
+  height: 0.44rem;
+  line-height: 0.44rem;
+  text-align: center;
+  position: relative; }
+  .header i {
+    padding-right: 0.1rem; }
+  .header a {
+    position: absolute;
+    font-size: 0.2rem; }
+  .header .fan {
+    left: 5px;
+    top: 0; }
+  .header .geng {
+    right: 0;
+    top: 0; }
+  .header .title {
+    text-align: center; }
+
+.section {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+.banner img {
+  width: 100%; }
+
+.cont {
+  padding-right: 0.1rem;
+  padding-left: 0.1rem; }
+  .cont h3 {
+    color: #4f99f2;
+    font-size: 16px;
+    height: 0.44rem;
+    line-height: 0.44rem; }
+  .cont h5 {
+    color: #333333;
+    padding-top: 0.06rem;
+    padding-bottom: 0.06rem; }
+  .cont p {
+    text-indent: 2em; }
+
+.bg-gray {
+  height: 0.1rem;
+  margin-top: 0.1rem; }
+
+.bg-blue {
+  height: 0.44rem;
+  line-height: 0.44rem;
+  text-align: center;
+  color: #fff;
+  font-size: 14px; }
+
+.content .img {
+  text-align: center; }
+  .content .img img {
+    width: 60%;
+    margin: 0 auto; }
+.content h4 {
+  height: 0.3rem;
+  line-height: 0.3rem;
+  border-top: 1px solid #ccc;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem; }
+.content .title {
+  display: flex;
+  height: 0.44rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; }
+  .content .title ul {
+    flex: 1;
+    text-align: center;
+    padding-top: 0.04rem;
+    box-sizing: border-box; }
+    .content .title ul:first-child {
+      border-right: 1px solid #ccc; }
+    .content .title ul li:last-child {
+      color: blue; }
+.content .explain {
+  display: flex;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem; }
+  .content .explain ul {
+    flex: 1; }
+    .content .explain ul li {
+      padding-top: 0.04rem; }
+.content .expl dl {
+  border-top: 1px solid #ccc;
+  display: flex; }
+  .content .expl dl dt {
+    width: 40px;
+    height: 40px;
+    background: blue;
+    line-height: 40px;
+    text-align: center;
+    color: #fff; }
+  .content .expl dl dd {
+    padding-left: 0.1rem;
+    padding-top: 0.04rem; }
+.content .record {
+  padding-top: 0.2rem; }
+  .content .record p {
+    text-align: center;
+    color: #4f99f2; }
+  .content .record .rec {
+    display: flex;
+    flex-wrap: wrap; }
+    .content .record .rec dl {
+      width: 50%;
+      padding-top: 0.1rem;
+      padding-bottom: 0.1rem;
+      box-sizing: border-box;
+      text-align: center;
+      color: #4f99f2; }
+      .content .record .rec dl dt {
+        font-size: 0.3rem;
+        color: #4f99f2; }
+.content .cont2 {
+  padding-top: 0.1rem;
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+  box-sizing: border-box; }
+  .content .cont2 h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 0.44rem;
+    line-height: 0.44rem; }
+    .content .cont2 h4 i {
+      font-size: 0.2rem;
+      line-height: 0.44rem; }
+  .content .cont2 h3 {
+    text-align: center;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    padding-bottom: 0.12rem;
+    color: #4f99f2; }
+  .content .cont2 dt {
+    text-align: center; }
+    .content .cont2 dt img {
+      width: 40%; }
+  .content .cont2 dd {
+    width: 100%;
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+    text-align: center;
+    box-sizing: border-box; }
+  .content .cont2 p {
+    text-indent: 24px; }
+  .content .cont2 h5 {
+    display: flex;
+    justify-content: space-between;
+    height: 0.44rem;
+    line-height: 0.44rem;
+    border-bottom: 1px solid #ccc; }
+  .content .cont2 ul li {
+    display: flex;
+    justify-content: space-between;
+    height: 0.44rem;
+    line-height: 0.44rem;
+    border-bottom: 1px solid #ccc; }
+    .content .cont2 ul li i {
+      line-height: 0.44rem; }
+
+.cont3 {
+  padding-top: 0.1rem; }
+  .cont3 h3 {
+    text-align: center;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    padding-bottom: 0.12rem;
+    color: #4f99f2; }
+  .cont3 .list {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0.1rem;
+    padding-left: 0.1rem; }
+    .cont3 .list dl {
+      width: 30%;
+      text-align: center; }
+      .cont3 .list dl img {
+        width: 100%; }
+
+.footer {
+  height: 0.44rem;
+  line-height: 0.44rem;
+  text-align: center;
+  background: #ccc; }
+
+/*# sourceMappingURL=index.css.map */
