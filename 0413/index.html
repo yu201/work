@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+<script src="js/jquery-2.2.0.js"></script>
+<script>
+	function daytime(time) {
+        var dfd = new $.Deferred();
+        setTimeout(function () {
+            console.log(111);
+			dfd.reject('2222')
+        },time);
+		return dfd.promise()
+    }
+    daytime(2000).fail(function(data){
+	    console.log(data)
+	});
+$.when($.ajax('data/data1.json'),$.ajax('data/data2.json'))
+	.done(function (data1,data2) {
+		console.log(data1[0].num+'.'+data2[0].num)
+	})
+
+
+</script>
+</html>
